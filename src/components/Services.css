@@ -1,0 +1,86 @@
+/* Base Styles */
+.services-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1d133bb0; /* Ensures white background */
+  color: #333; /* Dark text for contrast */
+}
+
+/* Carousel Styles */
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  height: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 80%;
+  object-fit: relative; /* Ensures the image covers the entire area */
+    border-radius: 1px;
+}
+
+/* Services Grid */
+.services-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.service-box {
+  background-color: #0c131a;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(245, 240, 240, 0.1);
+  transition: all 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-box h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.service-box p {
+  color: #f7f4f4;
+  line-height: 1.5;
+}
+.service-box ul li {
+  font-size: 1rem;
+  color: #f7f2f2d2;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  font-weight: 100; /* Make text bold */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
