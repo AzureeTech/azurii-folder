@@ -43,7 +43,6 @@ function Home() {
         </ul>
       </div>
 
-     
       {/* Services Section */}
         <h2 className="text-2xl font-bold">Team</h2>
         <p className="text-gray-300 mt-2">Meet our dedicated staff</p>
