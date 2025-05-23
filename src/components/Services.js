@@ -3,9 +3,12 @@ import './Services.css';
 import slide1 from '../assets/images/slide1.jpg';
 import slide2 from '../assets/images/slide2.jpg';
 import slide3 from '../assets/images/slide3.jpg';
+import slide4 from '../assets/images/slide4.jpg';
+import slide5 from '../assets/images/slide5.jpg';
+import slide6 from '../assets/images/slide6.jpg';
 
 const Services = () => {
-  const images = [slide1, slide2, slide3];
+  const images = [slide1, slide2, slide3, slide4, slide5, slide6];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Auto-rotate carousel
@@ -44,7 +47,7 @@ const Services = () => {
           <p>You'll get:-</p>
             <ul>
             <li>🔹 Responsive Portfolios</li>
-            <li>🔹 Business, Company and E-Comemrce Sites</li>
+            <li>🔹 Business, Company and E-Commerce Sites</li>
             <li>🔹 Custome Websites</li>
             <li>🔹 Software Dev</li>
       
