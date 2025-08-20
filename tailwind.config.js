@@ -8,4 +8,5 @@ module.exports = {
   },
   plugins: [],
 }
+
 // Removed CSS code. Move it to a CSS file.

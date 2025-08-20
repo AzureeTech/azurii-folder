@@ -9,10 +9,9 @@ function Paybill() {
         <p className="mb-4">You can make payments via M-Pesa:</p>
         <ul className="list-disc pl-6 space-y-2">
           <li>Go to M-Pesa</li>
-          <li>Select <strong>Lipa na M-Pesa</strong></li>
-          <li>Choose <strong>Paybill</strong></li>
-          <li>Enter Business Number: <span className="font-semibold">0794446838</span></li>
-          <li>Enter Account Number: <span className="font-semibold">AZURII</span></li>
+          <li>Select <strong>Send Money</strong></li>
+          <li>Enter Phone Number: <span className="font-semibold">0794446838</span></li>
+          <li>Confirm Account Name: <span className="font-semibold">Azuree World</span></li>
           <li>Enter the Amount</li>
           <li>Enter your M-Pesa PIN and press OK</li>
         </ul>
